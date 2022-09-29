@@ -1,0 +1,133 @@
+body {
+    align-items: center;
+    justify-content: center;
+    
+    background: rgb(0, 0, 0);
+}
+
+#botonesMenu {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: gainsboro;
+    padding: 0 700px;
+    text-align: center;
+    top: 45px;
+    /*color: black; */
+    text-shadow: 2px 2px 3px black;
+    font-size: 40px;
+    position: absolute;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+
+}
+
+.caja {
+    width: auto;
+    height: 5px;
+    background: rgb(255, 255, 255);
+}
+
+.caja2 {
+    position: absolute;
+    padding: 0px;
+    margin: 0px 650px;
+    width: 5px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+}
+
+.fondoCaja {
+    margin: 5px auto;
+    width: auto;
+    height: 50px;
+    background: white;
+}
+
+button {
+    margin: 10px;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+}
+
+button span {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+button span:nth-child(1) {
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: -100%;
+}
+
+button span:nth-child(2) {
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: -100%;
+}
+
+button span:nth-child(3) {
+    width: 1px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+
+button span:nth-child(4) {
+    width: 1px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+
+button:hover span:nth-child(1) {
+    left: 0;
+}
+
+button:hover span:nth-child(2) {
+    right: 0;
+}
+
+button:hover span:nth-child(3) {
+    bottom: 0;
+}
+
+button:hover span:nth-child(4) {
+    top: 0;
+}
+
+
+
+.menuopciones {
+    text-decoration: none;
+    color: rgb(151, 150, 150);
+}
+
+.menuopciones:hover {
+    text-size-adjust: 1px;
+    text-decoration: cadetblue 5px;
+}
+
+.textoInformacion {
+    color: rgb(237, 237, 237);
+    font-family:'Bodoni MT'
+}
